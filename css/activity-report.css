@@ -1,1 +1,4 @@
+#drag, #drop {  transition: border 300ms ease;  }
+
+#drag div, #drop div {  transition: color 300ms ease; }
 
