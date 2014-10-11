@@ -21,7 +21,6 @@ $( document ).ready(function() {
 							drop: function(event, ui) {
 								$(this).append($(ui.draggable).clone());
 								$("#drop .element-list").addClass(".item-drag");
-								$(".item-drag").append('<span>X</span>');
 								$(".item-drag").removeClass("ui-draggable product");
 								$(".item-drag").draggable({
 									containment: 'parent',
@@ -32,6 +31,6 @@ $( document ).ready(function() {
 		});
     $("#drop").on("drop", function(event, ui) {dropped(event, ui)});
 
-
+$(".item-drag").append('<span>X</span>');
 });
 

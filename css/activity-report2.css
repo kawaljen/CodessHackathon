@@ -50,4 +50,4 @@ p, div {
 	display : inline-block;
 }
 
-.item-drag span {background-color:#F5A9A9; color: white;}
+.item-drag span {background-color:#F5A9A9; color: white; width:15px; height : 15px;}
